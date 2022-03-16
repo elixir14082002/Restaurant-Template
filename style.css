@@ -4,6 +4,11 @@
 }
 
 #navbar {
+    /*
+    contains a darkened background image for greater clarity
+    The nav items have underlined hover effect
+    The display grid property is used to position the element in the extended navbar
+    */
     height: 400px;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("navPhoto.jpeg");  
     background-position: center;
@@ -68,6 +73,10 @@
     height: 100%;
     background-color: "#F5F5F5";
 }
+
+/*
+The price cards are displayed row wise using flex property
+*/
 
 .priceCards__title{
     padding: 20px;
